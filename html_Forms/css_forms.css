@@ -1,0 +1,38 @@
+body  {
+    width: 92%;
+    margin: 40px;
+    
+    text-align: justify;
+    background-color: rgb(48, 192, 48);
+}
+div {
+    background-color: white;
+    box-shadow: 2px 4px 12px 1px  rgb(142, 125, 125);
+    margin:  90px;
+    
+    
+}
+
+.text-box, .text-comment {
+    margin-left: 15px;
+    width: 92%;
+    margin-bottom: 10px;
+}
+p {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.text-comment {
+    height: 60px;
+}
+button {
+    margin-top: 5px;
+    margin-left: 80px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+.check_options {
+   margin_
+    margin-left: 30px;
+}

@@ -1,38 +1,56 @@
-body  {
-    width: 92%;
-    margin: 40px;
-    
-    text-align: justify;
-    background-color: rgb(48, 192, 48);
+body {
+    background-size: cover;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    box-shadow:rgb(142, 125, 125); 
+    width: 100%;
+    background-image: center;
 }
-div {
+    
+h1  {
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 42px;
+    width: 77%;
+    margin: 11%;
+    margin-bottom: 2%;
+}
+    
+.box {
     background-color: white;
     box-shadow: 2px 4px 12px 1px  rgb(142, 125, 125);
-    margin:  90px;
-    
-    
+    margin:  9%;
+    padding: 8%; 
+    margin-top: 5%;
+    width: 65%;
 }
-
-.text-box, .text-comment {
-    margin-left: 15px;
-    width: 92%;
-    margin-bottom: 10px;
+.text-box {   
+    width: 77%;
+}
+.text-area {
+    padding: 11%;
+    width: 77%;   
+    outline: none;
+    resize: none;
 }
 p {
-    margin-top: 20px;
-    margin-left: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
+    margin-top: 3%;
+    padding-block: 8px;
 }
-.text-comment {
-    height: 60px;
-}
-button {
-    margin-top: 5px;
-    margin-left: 80px;
-    width: 60%;
+select {
     margin-bottom: 20px;
 }
-.check_options {
-   margin_
-    margin-left: 30px;
+div {
+    margin-bottom: 10%;
+    display: grid;   
+    
 }
+.select-data {
+    width: 35%;
+}
+.button {
+width: 77%;
+margin-left: 11%;
+}
+

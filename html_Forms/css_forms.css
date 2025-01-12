@@ -2,9 +2,13 @@ body {
     background-size: cover;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
+    
     box-shadow:rgb(142, 125, 125); 
-    width: 100%;
+    width: 900px;
+    height: auto;
+    margin: auto;
     background-image: center;
+    letter-spacing: 8%;
 }
     
 h1  {
@@ -44,13 +48,14 @@ select {
 div {
     margin-bottom: 10%;
     display: grid;   
-    
 }
 .select-data {
     width: 35%;
 }
 .button {
-width: 77%;
-margin-left: 11%;
+width: 71%;
+padding: 2%;
+margin-left: 15%;
+margin-top: 2%;
 }
 

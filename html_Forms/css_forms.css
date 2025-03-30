@@ -1,14 +1,21 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
 body {
+    background-image: url("https://png.pngtree.com/png-clipart/20190516/original/pngtree-elegant-watercolor-valentine-gradient-background-png-image_3560975.jpg");
     background-size: cover;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
-    
-    box-shadow:rgb(142, 125, 125); 
-    width: 900px;
+    width: 62%;
     height: auto;
-    margin: auto;
-    background-image: center;
+    margin: auto;   
     letter-spacing: 8%;
+    align-self: center;
 }
     
 h1  {
@@ -20,20 +27,20 @@ h1  {
     margin-bottom: 2%;
 }
     
-.box {
-    background-color: white;
+ .box {
+    background-color: rgb(247, 247, 247);
     box-shadow: 2px 4px 12px 1px  rgb(142, 125, 125);
     margin:  9%;
     padding: 8%; 
-    margin-top: 5%;
-    width: 65%;
-}
+    padding-left:15%;
+} 
 .text-box {   
-    width: 77%;
+    width: 60%;
+    
 }
 .text-area {
     padding: 11%;
-    width: 77%;   
+    width: 90%;   
     outline: none;
     resize: none;
 }
@@ -46,16 +53,16 @@ select {
     margin-bottom: 20px;
 }
 div {
-    margin-bottom: 10%;
+    margin-bottom: 6%;
     display: grid;   
 }
 .select-data {
     width: 35%;
 }
 .button {
-width: 71%;
+width: 36%;
 padding: 2%;
-margin-left: 15%;
-margin-top: 2%;
+margin-left: 28%;
+margin-top: 6%;
 }
 
